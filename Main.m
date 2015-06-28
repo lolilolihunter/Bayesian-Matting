@@ -15,4 +15,11 @@ clear all;
 figure;
 imshow('origin.png');
 
-Bayesian_Matting ( 10,20,'origin.png','trimapOrigin.png');
+Bayesian_Matting ( 10,20,'origin_half.png','trimapOrigin_half.png');
+
+%%
+clear all;
+figure;
+imshow('complex/half_origin.png');
+
+Bayesian_Matting ( 10,20,'complex/half_origin.png','complex/half_trimap7.png');
