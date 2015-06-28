@@ -1,0 +1,14 @@
+clear all;
+
+Bayesian_Matting ( 8,10,'teddy.png','trimapT,png');
+
+
+%%
+clear all;
+
+BayesianMatting ( 20,10,'input2.png','mask2,png');
+
+%%
+clear all;
+
+BayesianMatting ( 10,10,'origin','trimap');
